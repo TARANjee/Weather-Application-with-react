@@ -1,0 +1,11 @@
+.cardView {
+  font-family: 'Comic Neue', cursive;
+  width:400px;
+  height:500px;
+ 
+  color:white;
+  background-color:rgba(0, 0, 0, 0.486);
+}
+.condition{
+  color:rgba(255, 255, 255, 0.678);
+}
