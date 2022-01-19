@@ -1,0 +1,20 @@
+.details-element {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+  font-size: 18px;
+}
+.details-block{
+  margin-top: 10%;
+}
+.label{
+  color:grey
+}
+.seachbox{
+  color:white;
+  border-color:white;
+}
+.searchBtn{
+  background-color: white;
+  color:black;
+}
