@@ -7,6 +7,7 @@ const Base_Url = 'http://api.weatherapi.com/v1'
 function App() {
   let [data, setData] = useState({});
   let [background, setBackground] = useState('');
+  
   const apiCall = async (location) => {
     Changebackground(data);
     if (!location) {
@@ -43,7 +44,7 @@ function App() {
   }
   useEffect(() => {
     apiCall();
-  }, [])
+  })
   console.log(data)
   console.log(background)
   return (

@@ -1,5 +1,4 @@
 import { TextField, FormControl, InputAdornment } from '@mui/material'
-import SearchIcon from '@mui/icons-material/Search';
 import React, { useState} from 'react'
 import "./styles.css"
 
@@ -50,18 +49,13 @@ const Details = ({ apiCall, current,Changebackground }) => {
             }
           }}
 
-          InputProps={{
-            startAdornment: (
-              <InputAdornment position="start">
-                <SearchIcon sx={{ color: 'white' }} />
-              </InputAdornment>
-            ),
-
-          }}
+          
 
         />
 
-        <button className='btn searchBtn' onClick={() => handleSearch()}><SearchIcon /></button>
+        <button className='btn searchBtn' onClick={() => handleSearch()}>
+          <img src="/img/search.png" alt="" />
+        </button>
 
       </FormControl>
 
